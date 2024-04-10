@@ -1,0 +1,10 @@
+/* 隐藏非定制灰色头衔 */
+.q-tag--grey {
+    display: none !important;
+}
+
+/* 隐藏头衔等级(保留群主/管理员/定制头衔框) */
+.group-member-label .level,
+.message .q-tag--grey {
+    display: none !important;
+}
